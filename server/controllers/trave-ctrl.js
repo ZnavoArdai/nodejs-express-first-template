@@ -1,7 +1,7 @@
 const states = require("../model/states");
 const getTravel = (req, res) => {
   if (states) {
-    res.send({ messages: "sucsses", states });
+    res.send( states );
   }
 
   res.send("obj not exist");
